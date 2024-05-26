@@ -2,7 +2,7 @@ package ru.netology.service;
 
 import static org.junit.Assert.assertEquals;
 
-public class CashBackHackerTest {
+public class CashBackHackTest {
 
     @org.junit.Test
     public void testRemain () {
