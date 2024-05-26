@@ -14,7 +14,10 @@ compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
 dependencies {
+    testImplementation 'org.testng:testng:7.7.0'
+
 }
 
 test {
+    useTestNG()
 }
